@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pushups</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 0px;
+    }
+
+    .mid {
+        display: block;
+        /* border: 2px solid yellow; */
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        background-image: url("gym girl.jpg");
+        background-size: 52%;
+        background-repeat: no-repeat;
+        background-position: top 32px right -36px;
+    }
+
+    header {
+        position: sticky;
+    }
+
+    .navbar {
+
+        display: inline-block;
+    }
+
+    .navbar li {
+        list-style-type: none;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .navbar li a {
+        font-size: 20px;
+        padding: 34px 23px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:active,
+    .navbar li a:hover {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .left img {
+        width: 180px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        font-family: 'Balsamiq Sans', cursive;
+        text-align: center;
+        font-size: 37px;
+    }
+
+    .btn {
+        background-color: black;
+        color: wheat;
+        padding: 7px 15px;
+        margin: 6px;
+        border: 1px solid grey;
+        border-radius: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(134, 135, 136);
+    }
+
+    .container {
+        border: 3px solid white;
+        margin: 110px auto auto 225px;
+        padding: 10px 69px 109px 57px;
+        border-radius: 28px;
+        width: 28%;
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 25px;
+    }
+
+    .forms input {
+        background-color: #c1d7e9;
+        margin: 7px 0px 0px 53px;
+        padding: 0px;
+        font-size: 25px;
+        font-family: 'Balsamiq Sans', cursive;
+        border-radius: 13px ;
+    }
+     .forms input:focus::placeholder{
+        color: transparent;
+     }
+    .container button {
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 21px;
+        margin: 11px 9px 7px 149px;
+        width: 301px;
+        text-align: center;
+        border-radius: 16px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpeg" alt="">
+            <div>PushUp's</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">BMI Calculator</a></li>
+                <li> <a href="#">Check Our Products</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h3>Join The BEST Gym In Guwahati!</h3>
+        <form action="noaction.php"></form>
+        <div class="forms">
+            <input type="text" name="" placeholder=" Name">
+        </div>
+        <div class="forms">
+            <input type="number" name="" placeholder=" Age">
+        </div>
+        <div class="forms">
+            <input type="text" name="" placeholder=" Gender">
+        </div>
+        <div class="forms">
+            <input type="text" name="" placeholder=" locality">
+        </div>
+        <div class="forms">
+            <input type="email" name="" placeholder=" Email">
+        </div>
+        <div class="forms">
+            <input type="number" name="" placeholder=" phone number">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
